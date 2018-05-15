@@ -88,3 +88,17 @@ a{
 	/*忘記哪區調成背景透明*/
     background: rgba(0, 0, 0, 0);
 }
+
+#ChatTabsPagelet{
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+}
+._5qi9._5qib{
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+}
+.rNubContainer ._50-v.opened{
+	margin-left: 85px;
+}
