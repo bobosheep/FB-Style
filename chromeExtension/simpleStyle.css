@@ -1,0 +1,106 @@
+body, main{
+       background:url('http://www.stupidgit.com/cdn/16/2011/288/simple-powerpoint-templates_183184.jpg') no-repeat !important;
+	
+
+        background-size:cover !important;
+        background-attachment:fixed !important;
+}
+
+._2s1x ._2s1y{
+	/*FB header*/
+	background-color:rgba(0, 0 , 0 , 0) !important;
+	color: rgb(30, 20, 22) !important;
+	border-style: none !important;
+	
+}
+._585-{
+	/*調整searchBar*/
+	border-style: none !important;
+	height: 27px !important;
+	max-width: 385px !important;
+}
+#rightCol{
+	visibility: hidden !important;
+}
+.fbNubFlyoutTitlebar{
+	background-color:	MediumSpringGreen !important;
+	color:indigo !important;	
+}
+._bui ._5afe{
+	/*左側捷徑*/
+	color: rgb(0, 25, 24) !important;
+}
+
+#ChatTabsPagelet{
+	left:200 !important;
+}
+#contentArea{
+	left:125 !important;
+}
+#globalContainer{
+	background-color:rgba(255, 255, 255, 0) !important;
+	padding-right: 0px !important;
+}
+#contentCol{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+#pagelet_sidebar, #universalNav, #appsNav, #createNav{
+	display:none !important;
+}
+
+@media (min-width:1012px)
+{
+	._2yq ._2t-d, ._2xk0 ._2t-d{
+		/*調整searchBar外*/
+		width:90% !important;
+	}
+}
+._48gf{
+	/*聊天室*/
+    bottom: 5vh !important;
+}
+
+._4-u8 , ._3-a6._1blz._5vsj._5vsj._5vsj{
+	/*po文內容*/
+	/*留言區*/
+    background-color: rgba(100, 100, 100, 0.25) !important;
+    color: rgb(10, 10, 10) !important;
+    border-style: none !important;
+}
+a{
+	color: rgb(0, 92, 96);
+}
+._5v3q ._14f3._5pbw._5pbw .fcg, ._5v3q ._14f3._1qbu._5pbw .fcg {
+    /*發表文章title*/
+    color: white !important;
+}
+
+._3-a6._1blz._5vsj ._1g5v+._4arz,._3-a6._1blz._5vsj .UFIRow, ._3-a6._1blz._5vsj.UFIContainer .UFIReplyList .UFIRow{
+	background-color: rgba(235, 245, 245, 0) !important;
+}
+._2yq ._4-u2::before {
+	/*每則Po文移除邊框*/
+    border: 1px !important;
+    border-radius: 10px !important;
+    bottom: -1px !important;
+}
+._1g5v+._4arz ,._ipo{
+	/*忘記哪區調成背景透明*/
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+/*
+#ChatTabsPagelet{
+	-ms-transform: rotate(-90deg) !important; 
+    -webkit-transform: rotate(-90deg) !important;
+    transform: rotate(-90deg);
+}
+._5qi9._5qib{
+	-ms-transform: rotate(90deg) !important; 
+    -webkit-transform: rotate(90deg) !important; 
+    transform: rotate(90deg) !important;
+}
+*/
+.rNubContainer ._50-v.opened{
+	margin-left: 85px;
+}

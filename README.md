@@ -1,9 +1,13 @@
 # FBstyle
 my own fb style by external css
 
+## Two way to use
+1.  use this as a chrome extension [Instruction]("chromeExtension/chromeExtension.md")
+2.  copy the css code to other chrome extension which can modify the css (Like the teaching below) to change the UI 
+
 ## Requirement
 -   Chrome browser
--   Chrome Extension: User Javascript and CSS
+-   Chrome Extension: [User Javascript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld)
     ![](https://i.imgur.com/cOjisSg.png)
 -   The extension setting
     ![](https://i.imgur.com/eRnnbet.png)

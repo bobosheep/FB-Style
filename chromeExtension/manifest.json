@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Simple Facebook",
+    "description": "This extension can modify your facebook layout.",
+    "version": "1.0",
+    
+    "content_scripts": [
+        {
+            "matches": ["https://www.facebook.com/*"],
+            "css": ["simpleStyle.css"]
+        }
+    ],
+
+    "permissions": [
+      "tabs","https://www.facebook.com/"
+    ],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Simple Facebook!"
+    }
+  }
