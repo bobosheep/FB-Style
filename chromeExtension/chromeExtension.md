@@ -1,10 +1,11 @@
-#use chrome extension
+# use chrome extension
  
 ## How to use
 -   First, *download* or *clone* this reposity.
-    '''bash
+
+    ```b
     git clone https://github.com/bobosheep/FBstyle.git
-    '''
+    ```
 
 -   Then open chrome, type url with "*chrome://extensions*"
     click the "**LOAD UNPACKED**", and choose the directory **chromeExtension** in this reposity
