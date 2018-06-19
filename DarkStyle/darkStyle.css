@@ -1,0 +1,106 @@
+body, main{
+    background:url('http://www.ophoco.com/public/media/hdwallpapers/abstract/gradient-light-dark-background-3wpp6u.jpg') no-repeat;
+ 
+
+     background-size:cover;
+     background-attachment:fixed;
+}
+
+._2s1x ._2s1y{
+ /*FB header*/
+ background-color:rgba(0, 0 , 0 , 0.5);
+ color: rgb(160, 255, 226);
+ border-style: none;
+ 
+}
+#u_0_a > div:nth-child(1) > div > div > a {
+ /* header 字 */
+ color: rgb(160, 255, 226);
+}
+
+._585-{
+ /*調整searchBar*/
+ border-style: none;
+ height: 27px;
+ max-width: 385px;
+}
+#rightCol{
+ visibility: hidden;
+}
+._bui ._5afe{
+ /*左側捷徑*/
+ color: rgb(0, 25, 24) !important;
+}
+
+#ChatTabsPagelet{
+ left:200;
+}
+#contentArea{
+ left:125;
+}
+#globalContainer{
+ background-color:rgba(255, 255, 255, 0);
+ padding-right: 0px;
+}
+#contentCol{
+ background-color: rgba(0, 0, 0, 0);
+}
+#pagelet_sidebar, #universalNav, #appsNav, #createNav{
+ display:none;
+}
+
+@media (min-width:1012px)
+{
+ ._2yq ._2t-d, ._2xk0 ._2t-d{
+     /*調整searchBar外*/
+     width:90%;
+ }
+}
+._48gf{
+ /*聊天室*/
+ bottom: 10vh;
+}
+
+._4-u8 , ._3-a6._1blz._5vsj._5vsj._5vsj{
+ /*po文內容*/
+ /*留言區*/
+ background-color: rgba(100, 100, 100, 0.25);
+ color: rgb(10, 10, 10);
+ border-style: none;
+}
+a{
+ color : rgb(0, 48, 76);
+}
+div.clearfix.fbNubFlyoutTitlebar.titlebar > div > div > div > a > span, #fbDockChatBuddylistNub > a{
+ 
+ color: #d6a955;
+}
+.fbNubFlyoutTitlebar, #fbDockChatBuddylistNub > a{
+ /*聊天室title*/
+ background-color:	rgb(0, 48, 76);
+}
+._5v3q ._14f3._5pbw._5pbw .fcg, ._5v3q ._14f3._1qbu._5pbw .fcg {
+ /*發表文章title*/
+ color: white;
+}
+
+._3-a6._1blz._5vsj ._1g5v+._4arz,._3-a6._1blz._5vsj .UFIRow, ._3-a6._1blz._5vsj.UFIContainer .UFIReplyList .UFIRow{
+ background-color: rgba(235, 245, 245, 0);
+}
+._2yq ._4-u2::before {
+ /*每則Po文移除邊框*/
+ border: 1px;
+ border-radius: 10px;
+ bottom: -1px;
+}
+._1g5v+._4arz ,._ipo{
+ /*按讚數、留言數的小區塊*/
+ background: rgba(0, 0, 0, 0);
+}
+
+#pinnedNav > ul > li > a{
+ color : rgb(82, 234, 186);
+}
+#pinnedNav > ul > li > a > div:nth-child(1) > span{
+ color : rgb(193, 255, 235);
+}
